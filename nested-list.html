@@ -11,7 +11,7 @@
 <body>
     <h1>Nested Lists</h1>
 
-    <ul>
+    <ul class="nav">
         <li>
             <a href="index.html">Home</a> 
         </li>
@@ -23,6 +23,88 @@
         </li>
     </ul>
     
+
+
+
+Now, create a nested list for a hypothetical navigation menu on a
+website about stuff in the solar system (the indent shows you the
+site topics for each of the main menu topics). Turn off the bullet
+display with CSS, since navigation doesn't use it. Also, you'll need
+to create hyperlinks inside each of the list items so that the menu
+is clickable. There is nowhere for the link to go (this is all a
+pretend menu), so use an empty href attribute:
+
+&lt;li&gt;&lt;a href=""&gt;linked text&lt;/a&gt;&l
+ li><a href="">linked text</a></li>.
+
+Also remember that nested lists go inside the parent list item.
+
+<ul>
+   <li>Breakfast
+        <ol>
+            <li>Eggs</li>
+            <li>Waffles</li>
+        </ol>
+    </li>
+
+    <li>Lunch
+        <ol>
+            <li>Sandwich</li>
+            <li>Salad</li>
+        </ol>
+    </li>
+</ul>
+
+
+<ul>
+    <li>Planet
+        <ol>
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Earth</li>
+            <li>Mars</li>
+            <li>Jupiter</li>
+            <li>Saturn</li>
+            <li>Uranus</li>
+            <li>Neptune</li>
+        </ol>
+    </li>
+</ul>
+
+<ul>
+    <li>Dwarf Planets
+        <ul>
+            <li>Ceres</li>
+            <li>Pluto</li>
+            <li>Haumea</li>
+            <li>Makemake</li>
+            <li>Eris</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li>Planetoids
+        <ul>
+            <li>Asteroids</li>
+            <li>The Kuiper Belt</li>
+            <li>Detached Objects</li>
+            <li>The Oort Cloud</li>
+        </ul>
+    </li>
+</ul>
+
+<ul>
+    <li>Space Junk
+        <ul>
+            <li>Dead Spacecraft</li>
+            <li> Lost Equipment</li>
+            <li>Boosters</li>
+            <li>Weapon Debris</li>
+        </ul>
+   </li>
+</ul>
+
 </body>
 
 
